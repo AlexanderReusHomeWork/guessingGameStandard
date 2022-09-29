@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guessing Game</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Guess the Number!</h1>
+    <div class="buttons-container">
+      <button id="start-game-btn">Start the Game</button>
+      <button id="again-game-btn" class="display-none">Try again</button>
+    </div>
+    <p class="msg"></p>
+    <p class="number-container">?</p>
+    <form class="form-guess-number">
+      <input
+        id="guess"
+        class="display-none"
+        type="text"
+        placeholder="Guess the number..."
+      />
+      <button type="submit" id="guess-btn" class="display-none">GUESS</button>
+    </form>
+  </body>
+</html>
